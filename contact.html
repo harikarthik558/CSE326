@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff; /* AliceBlue */
+            color: #2e8b57; /* SeaGreen */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #20b2aa; /* LightSeaGreen */
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f0fff0; /* Honeydew */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #2e8b57; /* SeaGreen */
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #2e8b57; /* SeaGreen */
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #20b2aa; /* LightSeaGreen */
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2e8b57; /* SeaGreen */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+</body>
+</html>
