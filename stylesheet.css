@@ -22,7 +22,7 @@ body{
     background-color: #189AB4;
     background-image: url('car1.png');
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 /* Header */
@@ -60,9 +60,7 @@ li{
 }
 
 a{
-    
     text-decoration: none;
-    margin: 0px 15px 0px 15px;
     padding: 0px 10px 0px 10px;
     color: navy;
 }
@@ -84,7 +82,7 @@ a{
 }
 
 p{
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
 }
 .new{
@@ -112,27 +110,14 @@ p{
 }
 
 .plan{
-    color: darkgoldenrod;
+    color: brown;
 }
 
 .gold{
-    background-color: purple;
-    color:gold ;
+    color: brown;
 }
 
-.train-img img{
-    margin: 10px;
-    width: 90%;
-    border: 2px solid black;
-}
 
-.train-head{
-    text-align: right;
-    vertical-align: top;
-    margin: 0;
-    font-size: 40px;
-    font-family: cursive;
-}
 
 marquee{
     margin: 10px;
@@ -145,7 +130,7 @@ marquee{
 
 /* book ticket */
 
-.book-ticket{
+.book-car{
     width: 50%;
     margin: 50px 0px 50px 50px ;
     border: 2px solid white ;
@@ -154,7 +139,7 @@ marquee{
     background-color: white;
 }
 
-.book-ticket h1{
+.book-car h1{
     color:navy;
     margin: 0 0 10px 0;
     font-family: cursive;
@@ -227,7 +212,7 @@ select:hover{
     margin: 10px auto;
     background-color: white;
     color: navy;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* border: 2px solid white; */
     border-radius: 20px;
     /* padding: 10px; */
@@ -247,7 +232,7 @@ select:hover{
 
 .login ::placeholder{
     font-size: 15px;
-    font-family: cursive;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .login a:hover{
